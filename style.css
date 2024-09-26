@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background: rgba(15, 23, 42, 1);
+
+}
+
+.content{
+    display: flex;
+    margin-top: 198px;
+    margin-left: 50px;
+    gap: 13rem;
+}
+
+.text-content h1{
+    font-size: 72px;
+    color: white;
+}
+
+.text-content h2{
+    font-size: 56px;
+    color: white;
+}
+
+.text-content p{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 5px;
+    display: flex;
+    gap: 2rem;
+}
+
+.buttons button {
+    background-color: rgb(11, 11, 247);
+    border-radius: 12px;
+    padding: 1px 42px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    border: none;
+}
+
+.buttons button:nth-child(1) .button_download span {
+    color: white;
+}
+
+.buttons button:nth-child(1) svg path {
+    fill: white; 
+}
+
+.button_download p{
+    white-space: nowrap;
+    width: 100px;
+    height: 30px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.buttons button:nth-child(2){
+    background: rgba(15, 23, 42, 1);
+    border-radius: 12px;
+    padding: 1px 42px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    border: none;
+}
+
+
+.buttons button:nth-child(2) .button_download span {
+    color: white;
+}
+
+.buttons button:nth-child(2) svg path {
+    fill: white; 
+    
+}
+
+.button_download p{
+    margin-bottom: 10px;
+}
+
+
+.fa-solid{
+    margin-bottom: 8px;
+}
+.vec{
+    margin-left: 280px;
+    width: 40px;
+    height: 10px;
+}
+
+.vec1{
+    position: absolute;
+    left: 53%;
+
+}
+
+.pic{
+    position: absolute;
+    left: 60%;
+    top: 24%;
+}
