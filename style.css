@@ -11,9 +11,11 @@ body{
 
 .content{
     display: flex;
-    margin-top: 198px;
+    margin-top: 158px;
     margin-left: 50px;
     gap: 13rem;
+    justify-content:space-between;
+    overflow: hidden;
 }
 
 .text-content h1{
@@ -41,7 +43,7 @@ body{
 }
 
 .buttons button {
-    background-color: rgb(11, 11, 247);
+    background-color: rgba(112, 26, 117, 1);
     border-radius: 12px;
     padding: 1px 42px;
     font-size: 16px;
@@ -50,6 +52,7 @@ body{
     gap: 1rem;
     color: white;
     border: none;
+    white-space: nowrap;
 }
 
 .buttons button:nth-child(1) .button_download span {
@@ -103,18 +106,27 @@ body{
 }
 .vec{
     margin-left: 280px;
-    width: 40px;
+    width: 490px;
     height: 10px;
 }
 
 .vec1{
     position: absolute;
-    left: 53%;
+    left: 680px;
+    width: 380px;
 
 }
 
 .pic{
     position: absolute;
-    left: 60%;
-    top: 24%;
+    left: 770px;
+    top: 120px;
+    width: 200px;
+}
+
+.vector-0{
+    position: absolute;
+    width: 410px;
+    left: 650px;
+
 }
